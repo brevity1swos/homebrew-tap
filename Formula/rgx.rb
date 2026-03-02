@@ -1,25 +1,25 @@
 class Rgx < Formula
-  desc "A terminal regex debugger with real-time matching, capture group highlighting, and plain-English explanations"
+  desc "A terminal regex tester with real-time matching, multi-engine support, and plain-English explanations"
   homepage "https://github.com/brevity1swos/rgx"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.1/rgx-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "98506f69deb8fed59f6af42b9a1227700c745c5ba1f7f8f375e925eb0e930718"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.2/rgx-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "043920d2c4a6c9af4cfd5b601b2cc100fe7a46011df2d7d7fefbab14b013e00e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.1/rgx-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "eaf41fb34b7272a8c6a4b3afd9a2c98e0ed8b58051f4a33cfbbb028084a3334f"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.2/rgx-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "c7eec4606d379af13fcfd5d829a01f4cc6fa97d1ca0d53537e3ad0f262334b1f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.1/rgx-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d3d036f5ff72e8f3a2a5db22e7bea247f40a7ffaccceccea94a07bf63f115eb7"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.2/rgx-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "990941312c9098e903b6bd18c8e127c529b2c3f9ec412a261aa7b3c5370e9c66"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.1/rgx-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4893a6e5c5ef274f717e427d8d966d85a3dfc0f636b05bb4d63f3d3e4dff85a8"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.5.2/rgx-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7c8cf42d0d85e3c974bc92ab7fc0d72620e4d19768b3f77ece33921c6cf02da3"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
