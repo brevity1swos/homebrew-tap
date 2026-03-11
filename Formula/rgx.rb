@@ -1,25 +1,25 @@
 class Rgx < Formula
   desc "A terminal regex tester with real-time matching, multi-engine support, and plain-English explanations"
   homepage "https://github.com/brevity1swos/rgx"
-  version "0.6.0"
+  version "0.6.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.0/rgx-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "3309ba9893cf0b9135dbac80778703dfd858f3de0d7ae265d442d658c0b3d4aa"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.1/rgx-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "135fba7ce9febdd28703fc1ed3d6c7fc3200bb1c98a08f346d05615086af143c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.0/rgx-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "e66eeb8733048e2c320b4a99a03e86d147d4b73fcb7debb1ebdd6b58a7bae65a"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.1/rgx-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "cc1fe496a2afccfdc088f49f9bfdf4acbd6f1584ee0115fa41bc3892ace712b5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.0/rgx-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d63d42eed6458197de585e4f24ce4842477c166b9af45d222f58bf8a60e9af13"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.1/rgx-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e4062c120922bf5963837142fa5d65626b93857bf1c8ecfe40f7c4d4d00c45fb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.0/rgx-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e8924807cbe5275c2fefe4c732e501ffbf40cf689269dd9bb61aa2e131467d1d"
+      url "https://github.com/brevity1swos/rgx/releases/download/v0.6.1/rgx-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fecda10229663ea32e22bd117687ca2a2740a711b6174277b9be09b598a3f5a8"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
